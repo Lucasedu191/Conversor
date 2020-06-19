@@ -1,0 +1,12 @@
+controle\Controler.class
+InterfaceUsu\InicialController.class
+trabalhador\ParseJson.class
+entidade\Registro.class
+InterfaceUsu\InicialController$2.class
+trabalhador\TrataCSV.class
+controle\InterfaceCSV.class
+controle\InterfaceJson.class
+InterfaceUsu\InicialController$1.class
+geral\Principal.class
+InterfaceUsu\InicialController$3.class
+trabalhador\SalvaJson.class

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="340.0" prefWidth="560.0" style="-fx-background-color: rgb(18, 213, 175);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="InterfaceUsu.InicialController">
+	<children>
+		<TextArea fx:id="txtA_Status" layoutX="14.0" layoutY="138.0" prefHeight="171.0" prefWidth="539.0" />
+		<ProgressBar fx:id="PrB_Proecesso" layoutX="14.0" layoutY="109.0" prefHeight="23.0" prefWidth="539.0" progress="0.0" />
+		<Text layoutX="35.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ConversorCSV/Json">
+		<font>
+			<Font name="Oswald" size="26.0" />
+		</font></Text>
+		<HBox alignment="CENTER" layoutX="10.0" layoutY="45.0" prefHeight="56.0" prefWidth="539.0" spacing="20.0">
+		
+		<children>
+		<Button fx:id="btn_ArquivoCSV" mnemonicParsing="false" onAction="#ArquivoCSV" prefHeight="31.0" prefWidth="123.0" text="ARQUIVO CSV">
+			<cursor>
+				<Cursor fx:constant="DEFAULT" />
+			</cursor></Button>
+		<Button fx:id="btn_ArquivoJson" mnemonicParsing="false" onAction="#ArquivoJson" prefHeight="31.0" prefWidth="134.0" text="ARQUIVO JSON">
+			<cursor>
+				<Cursor fx:constant="DEFAULT" />
+			</cursor></Button>
+		<Button fx:id="btn_Converter" mnemonicParsing="false" onAction="#Converter" prefHeight="31.0" prefWidth="158.0" text="CONVERTER">
+			<cursor>
+				<Cursor fx:constant="DEFAULT" />
+			</cursor></Button>
+		</children>
+		</HBox>
+	</children>
+</AnchorPane>
